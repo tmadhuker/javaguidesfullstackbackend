@@ -45,6 +45,12 @@ public class EmployeeController {
 	
 	}
 	
+	
+//	@RequestMapping (value="/employees/firstname/{firstName}")
+//	public optional<Employee> getEmployee(@PathVariable String name) {
+//		return Employee
+//	}
+	
 //	update the existing employee 
 	
 	@PutMapping("/employees/{id}")
